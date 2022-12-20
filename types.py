@@ -23,7 +23,7 @@ def get_items(item_a: str, item_b: int, item_c: float, item_d: bool, item_e: byt
 
 def process_items(items: List[str]):
   for item in items:
-      print(item)
+    print(item)
 
 
 def process_items(items_t: Tuple[int, int, str], items_s: Set[bytes]):
